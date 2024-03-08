@@ -1,0 +1,88 @@
+.submit {
+    background-color: #5a7c70;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+img{
+    height: 50px;
+}
+
+input[type=username], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: rgba(59, 59, 59, 0.5);
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pan{
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.submit:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: rgba(59, 59, 59, 0.5); /* semi-transparent white background */
+    backdrop-filter: blur(5px); /* create a frosted glass effect */
+    -webkit-backdrop-filter: blur(5px); /* for Safari */
+    border-radius: 10px; /* add rounded corners */
+    padding: 20px; /* add some padding */ 
+}
+
+label{
+    color: #ffffff;
+}
+
+.column {
+    float: center;
+    width: 30%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 30%;
+    padding: 5px;
+}
